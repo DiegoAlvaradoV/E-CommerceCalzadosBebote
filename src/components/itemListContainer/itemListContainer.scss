@@ -1,0 +1,102 @@
+/*FUENTES*/
+
+@import "./../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Syne: $Syne,
+  Kumbh: $Kumbh
+);
+
+
+
+/*COLORES*/
+
+@import "./../../assets/scss/colores";
+
+$mapaColores: (
+  Bebote: $Bebote,
+  dimBebote: $dimBebote,
+  darkBebote: $darkBebote,
+  whiteBebote: $whiteBebote
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.greeting{
+  color: $Bebote;
+  font-weight: 900;
+  text-align: center;
+  margin: 1em;
+  font-family: $Syne;
+}
+
+
+
+.simulacionProducto{
+  margin: 2em;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .cardProducto{
+      padding: 5px;
+      overflow: hidden;
+      max-width: 350px;
+
+      .cardContenedor{
+          display: block;
+          position: relative;
+          overflow: hidden;
+          box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+          border-radius: 3px;
+
+          .imgProducto{
+              width: 100%;
+              height: auto;
+              cursor: pointer;
+          }
+      }
+  }
+
+  .infoProducto{
+      text-align: center;
+      
+
+      .nombreProducto{
+          color: $Bebote;
+          font-weight: 700;
+          font-family: $Syne;
+      }
+
+      .precioProducto{
+          color: $darkBebote;
+          font-family: $Syne;
+  
+
+      }
+
+      .stockProducto{
+          color: $dimBebote;
+          font-family: $Syne;
+          
+      }
+  }
+}
