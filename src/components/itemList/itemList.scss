@@ -38,10 +38,11 @@ $mapaColores: (
 
 
 
-.greeting{
-  color: $Bebote;
-  font-weight: 900;
-  text-align: center;
-  margin: 1em;
-  font-family: $Syne;
+.contenedorGaleria{
+  
+    .galeriaProductos{
+        padding: 5px;
+        overflow: hidden;
+        max-width: 400;
+    }
 }

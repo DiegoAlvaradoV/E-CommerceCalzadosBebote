@@ -4,9 +4,10 @@ import './itemCount.scss';
 const ItemCount = ({initial,stock}) =>{
 
 
-    const [contador,setContador] = React.useState(1);
+    const [contador,setContador] = React.useState(initial);
 
     return(
+        
         <div className="modProducto">
             
             <div className="contadorProducto">

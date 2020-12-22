@@ -50,14 +50,14 @@ $mapaColores: (
         .contadorProducto__Menos{
             cursor: pointer;
             color: $Bebote;
-            font-size: 1.5em;
+            font-size: 1.5vw;
     
         }
     
         .contadorProducto__Mas{
             cursor: pointer;
             color: $Bebote;
-            font-size: 1.5em;
+            font-size: 1.5vw;
     
         }
     
@@ -65,6 +65,7 @@ $mapaColores: (
             cursor: context-menu;
             font-family: $Bebote;
             font-weight: 600;
+            font-size: 1.5vw;
     
         }
     }
@@ -72,10 +73,11 @@ $mapaColores: (
     .botonProducto{
 
         .botonProducto__Agregar{
+            margin-bottom: 1vw;
             border: none;
             color: $whiteBebote;
             background-color: $Bebote;
-            padding: 10px;
+            padding: 0.5vw;
             border-radius: 5px;
             box-shadow: 0 0 6px rgba(0, 0, 0, .5);
         }
