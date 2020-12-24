@@ -1,11 +1,21 @@
 import React from 'react';
 import './item.scss';
-import ItemCount from '../itemCount/ItemCount';
+import ItemDetailContainer from '../itemDetailContainer/ItemDetailContainer';
 
 
 
 
-const Item = ({nombre, precio, stock, img, initial}) => {
+
+
+const Item = ({producto}) => {
+
+
+
+    const [visible,setVisible] = React.useState(false);
+
+    let cambiarVisible = (()=>{
+        setVisible(!visible);
+    })
 
     return (
         <>
@@ -13,18 +23,13 @@ const Item = ({nombre, precio, stock, img, initial}) => {
 
             <div className="galeriaProductos__Card">
 
-            <img src={img} alt="Calzado Bebé" className="galeriaProductos__Img"></img>
+                <img src={producto.img} alt="Calzado Bebé" className="galeriaProductos__Img"
+                onClick={cambiarVisible}></img>
+
+                {visible ? <ItemDetailContainer producto={producto}/> : null}
 
             </div>
-
-
-            <div className="galeriaProductos__Detalles">
-                <p className="galeriaProductos__Nombre">{nombre}</p>
-                <p className="galeriaProductos__Precio">{precio}</p>
-                <p className="galeriaProductos__Stock">Stock: {stock}</p>
-                <ItemCount initial={initial} stock={stock}/>
-            </div>
-            
+    
        
         </>
     )

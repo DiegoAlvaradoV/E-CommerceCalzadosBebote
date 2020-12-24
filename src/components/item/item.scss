@@ -39,6 +39,7 @@ $mapaColores: (
 
 
 .galeriaProductos__Card{
+    
 
     display: block;
     position: relative;
@@ -56,31 +57,4 @@ $mapaColores: (
 
 .galeriaProductos__Card:hover{
     transform: translateY(-3px) scale(1.0);  
-}
-
-.galeriaProductos__Detalles{
-    font-family: $Syne;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 1vw;
-
-    .galeriaProductos__Nombre{
-        color: $Bebote;
-        font-weight: 900;
-        font-size: 2.5vw;
-    }
-
-    .galeriaProductos__Precio{
-        color: $darkBebote;
-        font-weight: 700;
-        font-size: 2vw;
-    }
-
-    .galeriaProductos__Stock{
-        color: $dimBebote;
-        font-weight: 700;
-        font-size: 1.5vw;
-    }
 }
