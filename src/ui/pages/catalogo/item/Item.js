@@ -1,6 +1,6 @@
 import React from 'react';
 import './item.scss';
-import ItemDetailContainer from '../itemDetailContainer/ItemDetailContainer';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,21 +11,15 @@ const Item = ({producto}) => {
 
 
 
-    const [visible,setVisible] = React.useState(false);
-
-    let cambiarVisible = (()=>{
-        setVisible(!visible);
-    })
-
     return (
         <>
         
 
-            <div className="galeriaProductos__Card" onClick={cambiarVisible}>
+            <div className="galeriaProductos__Card">
 
-                <img src={producto.img} alt="Calzado Bebé" className="galeriaProductos__Img"/>
-
-                {visible ? <ItemDetailContainer producto={producto}/> : null}
+                <Link to={`/${producto.nombre}/${producto.id}`}>
+                    <img src={producto.img} alt={producto.nombre} className="galeriaProductos__Img"/>
+                </Link>
 
             </div>
     

@@ -46,21 +46,27 @@ $mapaColores: (
     flex-direction: column;
     margin-top: 1vw;
 
+    .galeriaProductos__Img{
+      max-width: 40vw;
+      margin: 1vw;
+    }
+
     .galeriaProductos__Nombre{
         color: $Bebote;
         font-weight: 900;
-        font-size: 2.5vw;
+        font-size: 5vw;
+        text-shadow: 0 0 5px rgba(0, 0, 0, .5);
     }
 
     .galeriaProductos__Precio{
         color: $darkBebote;
         font-weight: 700;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .galeriaProductos__Stock{
         color: $dimBebote;
         font-weight: 700;
-        font-size: 1.5vw;
+        font-size: 2.5vw;
     }
 }
