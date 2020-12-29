@@ -1,0 +1,85 @@
+/*FUENTES*/
+
+@import "../../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Syne: $Syne,
+  Kumbh: $Kumbh
+);
+
+
+
+/*COLORES*/
+
+@import "../../../../assets/scss/colores";
+
+$mapaColores: (
+  Bebote: $Bebote,
+  dimBebote: $dimBebote,
+  darkBebote: $darkBebote,
+  whiteBebote: $whiteBebote
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modProducto{
+
+    .contadorProducto{
+        min-width: 10em;;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: space-between;
+    
+        .contadorProducto__Menos{
+            cursor: pointer;
+            color: $Bebote;
+            font-size: 1.5vw;
+    
+        }
+    
+        .contadorProducto__Mas{
+            cursor: pointer;
+            color: $Bebote;
+            font-size: 1.5vw;
+    
+        }
+    
+        .contadorProducto__Contador{
+            cursor: context-menu;
+            font-family: $Bebote;
+            font-weight: 600;
+            font-size: 1.5vw;
+    
+        }
+    }
+
+    .botonProducto{
+
+        .botonProducto__Agregar{
+            margin-bottom: 1vw;
+            border: none;
+            color: $whiteBebote;
+            background-color: $Bebote;
+            padding: 0.5vw;
+            border-radius: 5px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+        }
+    }
+}

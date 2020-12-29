@@ -1,0 +1,21 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Syne: $Syne,
+  Kumbh: $Kumbh
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Bebote: $Bebote,
+  dimBebote: $dimBebote,
+  darkBebote: $darkBebote,
+  whiteBebote: $whiteBebote
+);

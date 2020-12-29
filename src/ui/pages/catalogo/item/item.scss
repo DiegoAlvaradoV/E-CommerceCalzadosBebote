@@ -1,0 +1,60 @@
+/*FUENTES*/
+
+@import "../../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Syne: $Syne,
+  Kumbh: $Kumbh
+);
+
+
+
+/*COLORES*/
+
+@import "../../../../assets/scss/colores";
+
+$mapaColores: (
+  Bebote: $Bebote,
+  dimBebote: $dimBebote,
+  darkBebote: $darkBebote,
+  whiteBebote: $whiteBebote
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.galeriaProductos__Card{
+    
+
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    border-radius: 3px;
+    cursor: pointer;
+  
+  
+    .galeriaProductos__Img{
+        width: 100%;
+        height: auto;   
+    }
+}
+
+.galeriaProductos__Card:hover{
+    transform: translateY(-3px) scale(1.0);  
+}
