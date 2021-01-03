@@ -39,9 +39,12 @@ $mapaColores: (
 
 
 .modProducto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .contadorProducto{
-        min-width: 10em;;
+        min-width: 10em;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -50,14 +53,14 @@ $mapaColores: (
         .contadorProducto__Menos{
             cursor: pointer;
             color: $Bebote;
-            font-size: 1.5vw;
+            font-size: 3vw;
     
         }
     
         .contadorProducto__Mas{
             cursor: pointer;
             color: $Bebote;
-            font-size: 1.5vw;
+            font-size: 3vw;
     
         }
     
@@ -65,21 +68,10 @@ $mapaColores: (
             cursor: context-menu;
             font-family: $Bebote;
             font-weight: 600;
-            font-size: 1.5vw;
+            font-size: 3vw;
     
         }
     }
 
-    .botonProducto{
-
-        .botonProducto__Agregar{
-            margin-bottom: 1vw;
-            border: none;
-            color: $whiteBebote;
-            background-color: $Bebote;
-            padding: 0.5vw;
-            border-radius: 5px;
-            box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-        }
-    }
+    
 }
