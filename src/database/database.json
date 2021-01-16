@@ -1,0 +1,65 @@
+[{
+    "id": 1,
+    "nombre": "Calzado Bebé 01",
+    "precio": 3991,
+    "stock": 93,
+    "img": "https://i.ibb.co/VSvTbNd/1.jpg",
+    "initial": 1,
+    "categoria": "Bebés"
+  }, {
+    "id": 2,
+    "nombre": "Calzado Bebé 02",
+    "precio": 3605,
+    "stock": 14,
+    "img": "https://i.ibb.co/zNfqHgP/2.jpg",
+    "initial": 1,
+    "categoria": "Bebés"
+  }, {
+    "id": 3,
+    "nombre": "Calzado Bebé 03",
+    "precio": 3706,
+    "stock": 82,
+    "img": "https://i.ibb.co/nnNy0Jc/3.jpg",
+    "initial": 1,
+    "categoria": "Bebés"
+  }, {
+    "id": 4,
+    "nombre": "Calzado Niña 01",
+    "precio": 3790,
+    "stock": 98,
+    "img": "https://i.ibb.co/GCW0zcg/17.jpg",
+    "initial": 1,
+    "categoria": "Niñas"
+  }, {
+    "id": 5,
+    "nombre": "Calzado Niña 02",
+    "precio": 3745,
+    "stock": 60,
+    "img": "https://i.ibb.co/HhfhjqG/18.jpg",
+    "initial": 1,
+    "categoria": "Niñas"
+  }, {
+    "id": 6,
+    "nombre": "Calzado Niña 03",
+    "precio": 3120,
+    "stock": 23,
+    "img": "https://i.ibb.co/RPd3rBP/19.jpg",
+    "initial": 1,
+    "categoria": "Niñas"
+  }, {
+    "id": 7,
+    "nombre": "Calzado Adolescente 01",
+    "precio": 3890,
+    "stock": 45,
+    "img": "https://i.ibb.co/BgPYYFB/59.jpg",
+    "initial": 1,
+    "categoria": "Adolescentes"
+  }, {
+    "id": 8,
+    "nombre": "Calzado Adolescente 02",
+    "precio": 3111,
+    "stock": 8,
+    "img": "https://i.ibb.co/LSYpXkV/60.jpg",
+    "initial": 1,
+    "categoria": "Adolescentes"
+  }]

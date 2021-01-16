@@ -60,8 +60,8 @@ const Navbar = ({categorias}) => {
 
                   return (
                     
-                    <Link className="dropdown-item text-center" to={`/${categoria.categoria}/${categoria.id}`} key={categoria.id}>
-                      {categoria.categoria}
+                    <Link className="dropdown-item text-center" to={`/${categoria}`} key={categoria}>
+                      {categoria}
                     </Link>
                     
                   );
