@@ -37,13 +37,31 @@ $mapaColores: (
 
 
 
-
 .cart{
-  color: $dimBebote;
-  font-size: 2em;
-  margin-right: 6px;
+
+  .cartWidget{
+    color: $dimBebote;
+    font-size: 2em;
+  }
+  
+  .cartWidget:hover{
+    color: $Bebote;
+  }
+
+  .cartCount{
+    display: inline;
+    border-radius: 50%;
+    background: $Bebote;
+    padding: 2px;
+    position: relative;
+    bottom: 1.5vw;
+    right: 0.5vw;
+
+    .cartCount__Count{
+      display: inline;
+      color: $whiteBebote;
+    }
+  }
 }
 
-.cart:hover{
-  color: $Bebote;
-}
+

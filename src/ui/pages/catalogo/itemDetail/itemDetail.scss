@@ -47,27 +47,27 @@ $mapaColores: (
     margin-top: 1vw;
 
     .galeriaProductos__Img{
-      max-width: 40vw;
+      max-width: 30vw;
       margin: 1vw;
     }
 
     .galeriaProductos__Nombre{
         color: $Bebote;
         font-weight: 900;
-        font-size: 5vw;
+        font-size: 4vw;
         text-shadow: 0 0 5px rgba(0, 0, 0, .5);
     }
 
     .galeriaProductos__Precio{
         color: $darkBebote;
         font-weight: 700;
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     .galeriaProductos__Stock{
         color: $dimBebote;
         font-weight: 700;
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 }
 
@@ -77,14 +77,13 @@ $mapaColores: (
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-top: 1vw;
   .botonProducto__Trigger{
-      margin-bottom: 1vw;
-      border: none;
-      color: $whiteBebote;
-      background-color: $Bebote;
-      padding: 0.5vw;
-      border-radius: 5px;
-      box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    border: none;
+    color: $whiteBebote;
+    background-color: $Bebote;
+    padding: 0.5vw;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
   }
 }

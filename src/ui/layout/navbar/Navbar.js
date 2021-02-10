@@ -1,11 +1,10 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './navbar.scss';
 import logotipoBebote from '../../../assets/img/logo/logotipoBebote.png';
 import CartWidget from '../../widget/cartWidget/CartWidget';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = ({categorias}) => {
-
 
 
   return(
@@ -24,15 +23,15 @@ const Navbar = ({categorias}) => {
 
         <div className="navbar__Iconos">
 
-          <div className="d-lg-none">
+          <div className="d-lg-none text-decoration-none">
 
-            <Link to="#" className="text-decoration-none">
+            <Link to="#">
               <i className="fas fa-search navbar__IconosBuscar"></i>
             </Link>
 
-            <Link to="#" className="text-decoration-none">
-              <CartWidget />
-            </Link>
+            
+            <CartWidget />
+            
 
           </div>
 
@@ -60,8 +59,8 @@ const Navbar = ({categorias}) => {
 
                   return (
                     
-                    <Link className="dropdown-item text-center" to={`/${categoria}`} key={categoria}>
-                      {categoria}
+                    <Link className="dropdown-item text-center" to={`/${categoria.categoria}/${categoria.id}`} key={categoria.id}>
+                      {categoria.categoria}
                     </Link>
                     
                   );
@@ -72,46 +71,19 @@ const Navbar = ({categorias}) => {
 
             </li>
 
-
-            {/* <li className="nav-item dropdown">
-              <Link className="nav-link dropdown-toggle text-center" to="/campañas" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                CAMPAÑAS
-              </Link>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link className="dropdown-item text-center" to="/verano2020/2021">Verano 2020/2021</Link>
-                <div className="dropdown-divider"></div>
-                <Link className="dropdown-item text-center" to="/otoño2020">Otoño-Invierno 2020</Link>
-                <div className="dropdown-divider"></div>
-                <Link className="dropdown-item text-center" to="/primavera2019/2020">Primavera-Verano 2019/2020</Link>
-              </div>
-            </li>
-
-            <li className="nav-item">
-              <Link className="nav-link text-center" to="/novedades">NOVEDADES</Link>
-            </li>
-
-            <li className="nav-item">
-              <Link className="nav-link text-center" to="/vendedores">VENDEDORES</Link>
-            </li>
-
-            <li className="nav-item">
-              <Link className="nav-link text-center" to="/contacto">CONTACTO</Link>
-            </li> */}
-
           </ul>
 
         </div>
 
           
-        <div className="d-none d-lg-block navbar__Iconos">
+        <div className="d-none d-lg-block navbar__Iconos text-decoration-none">
 
-          <Link to="#" className="text-decoration-none">
+          <Link to="#">
             <i className="fas fa-search navbar__IconosBuscar"></i>
           </Link>
 
-          <Link to="#" className="text-decoration-none">
-            <CartWidget />
-          </Link>
+          <CartWidget />
+          
         </div>
 
       </nav>

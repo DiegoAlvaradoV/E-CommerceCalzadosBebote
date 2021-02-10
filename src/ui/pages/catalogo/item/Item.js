@@ -3,11 +3,6 @@ import './item.scss';
 import { Link } from 'react-router-dom';
 
 
-
-
-
-
-
 const Item = ({producto}) => {
 
 
@@ -18,8 +13,8 @@ const Item = ({producto}) => {
 
             <div className="galeriaProductos__Card">
 
-                <Link to={`/${producto.nombre}/${producto.id}`}>
-                    <img src={producto.img} alt={producto.nombre} className="galeriaProductos__Img"/>
+                <Link to={`/${producto.item.name}/${producto.id}`}>
+                    <img src={producto.item.image} alt={producto.item.name} className="galeriaProductos__Img"/>
                 </Link>
 
             </div>

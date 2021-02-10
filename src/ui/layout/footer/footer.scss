@@ -1,0 +1,281 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Syne: $Syne,
+  Kumbh: $Kumbh
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Bebote: $Bebote,
+  dimBebote: $dimBebote,
+  darkBebote: $darkBebote,
+  whiteBebote: $whiteBebote
+);
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: white;
+    margin-top: 5em;
+  
+    h4, p, a, li a {
+      color: black;
+    }
+  
+    .footer__Superior{
+      .footer__Logotipo img {
+        max-width: 5em;
+        max-height: 5em;
+      }
+  
+      .footer__Redes{
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        li{
+          display: inline-block;
+          margin: 0px 5px;
+          width: 4em;
+          height: 4em;
+          text-align: center;
+  
+          a{
+            display: block;
+            padding: 1em 1em;
+            background: #333;
+            color: white;
+            line-height: 6em;
+            font-size: 1em;
+            box-shadow: 0 3px 5px 0px rgba(0,0,0,0.5);
+            transition: 0.2s;
+          }
+        }  
+      }
+  
+      /*DESENFOQUE DE LAS REDES AL PASAR ENCIMA DE ELLAS*/
+      .footer__Redes:hover a{
+        filter: blur(2px);
+      }
+      /*ANIMACIÓN AL SELECCIONAR UNA RED*/
+      .footer__Redes li a:hover{
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 5px 5px 0px rgba(0,0,0,0.7);
+        filter: none;
+      }
+      /*CAMBIAR EL COLOR SEGÚN LA RED SELECCIONADA*/
+      /*FACEBOOK*/
+      .footer__Redes li .facebook:hover{
+        background: #3B5999;
+      }
+      /*INSTAGRAM*/
+      .footer__Redes li .instagram:hover{
+        background: #e4405f;
+      }
+      /*TWITTER*/
+      .footer__Redes li .twitter:hover{
+        background: #55acee;
+      }
+  
+      .footer__Apartados{
+        margin-bottom: 30px;
+  
+        ul{
+          list-style: none;
+          padding: 0;
+          margin: 0;
+  
+          li{
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+          }
+  
+          a{
+            display: inline-block;
+            line-height: 1;
+          }
+        }
+      }
+  
+      .footer__Newsletter{
+  
+        h4{
+          margin-bottom: 0px;
+          border: 0px;
+          padding-bottom: 1vh;
+        }
+  
+        form{
+  
+          display: flex;
+          flex-direction: row;
+          background: #fff;
+          padding: 5px 10px;
+          position: relative;
+          border-radius: 4px;
+          text-align: left;
+  
+          .footer__NewsletterEnviar {
+            min-width: 7.5em;
+            margin: auto;
+            text-decoration: none;
+            background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
+            text-align: center;
+            color: white;
+            font-size: 1em;
+            margin-left: 0.5em;
+            text-transform: uppercase;
+            border-radius: 5px;     
+            border: none;
+            padding: 1vh;  
+          }
+  
+        }
+      }
+  
+      h4{
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+        padding-bottom: 12px;
+      }
+      
+    }
+  
+    .footer__Inferior{
+  
+      .footer__Creditos{
+        a{
+          text-decoration: none;
+          color: $Bebote;
+        }
+      }
+  
+      .footer__Arriba{
+        a{
+          font-size: 2.5vh;
+          i{
+            position: relative;
+            top: 7px;
+            margin-right: 5px;
+            color: red;
+            font-size: 3vh;
+          }
+        }
+        
+      }
+        
+    }
+  }
+  
+  
+  /*MODIFICADORES DE LOS TEXTOS FOOTER*/
+  
+  /*FUENTES DE TEXTOS FOOTER*/
+  @each $fuenteTextosFooter, $valorFuenteTextosFooter in $mapaFuentes {
+    .footer__Texto--#{$fuenteTextosFooter} {
+      font-family: $valorFuenteTextosFooter;
+    }
+  }
+  
+  
+  /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 500PX LANDSCAPE*/
+  @media only screen and (min-width:500px) and (orientation: landscape){
+  
+    .footer{
+    
+      .footer__Inferior{
+    
+        .footer__Arriba{
+          a{
+            
+            i{
+              top: 2px;
+              font-size: 3vh;
+            }
+          }
+          
+        }
+          
+      }
+    }
+  }
+  
+  /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 800PX LANDSCAPE*/
+  @media only screen and (min-width:800px) and (orientation: landscape){
+  
+    .footer{
+    
+      .footer__Inferior{
+    
+        .footer__Arriba{
+          a{
+            
+            i{
+              top: 3.5px;
+            }
+          }
+          
+        }
+          
+      }
+    }
+  }
+  /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 1020PX LANDSCAPE*/
+  @media only screen and (min-width:1020px) and (orientation: landscape){
+  
+    .footer{
+    
+      .footer__Inferior{
+    
+        .footer__Arriba{
+          a{
+            
+            i{
+              top: 7px;
+            }
+          }
+          
+        }
+          
+      }
+    }
+  }
+  /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 1200PX LANDSCAPE*/
+  @media only screen and (min-width:1200px) and (orientation: landscape){
+  
+    .footer{
+    
+      .footer__Inferior{
+    
+        .footer__Arriba{
+          a{
+            
+            i{
+              top: 9px;
+            }
+          }
+          
+        }
+          
+      }
+    }
+  }
