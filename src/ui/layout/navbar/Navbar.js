@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import './navbar.scss';
 import logotipoBebote from '../../../assets/img/logo/logotipoBebote.png';
 import CartWidget from '../../widget/cartWidget/CartWidget';
