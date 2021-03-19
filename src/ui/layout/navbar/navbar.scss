@@ -52,6 +52,11 @@ $mapaColores: (
       display: flex;
       flex-direction: row;
 
+      .d-lg-none{
+        margin-right: 10px;
+      }
+      
+
       a{
 
         .navbar__IconosBuscar{

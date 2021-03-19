@@ -75,6 +75,11 @@ const Main = () => {
                     <ItemListContainer producto={productos} categoria={0} greeting={'BIENVENIDO/A A CALZADOS BEBOTE'}/>
                 </Route>
 
+                {/* LISTAR TODOS LOS PRODUCTOS */}
+                <Route path="/calzados-bebote-react/">
+                    <ItemListContainer producto={productos} categoria={0} greeting={'BIENVENIDO/A A CALZADOS BEBOTE'}/>
+                </Route>
+
 
                 {/* LISTAR PRODUCTOS SEGÚN LA CATEGORIA */}
                 {productos.map((producto)=>{

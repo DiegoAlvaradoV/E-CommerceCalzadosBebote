@@ -65,6 +65,7 @@ const ItemListContainer = ({producto,categoria,greeting}) => {
 
   },[categoria,producto]);
 
+  console.log(productos)
   
 
   return(

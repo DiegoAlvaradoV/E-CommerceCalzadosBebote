@@ -49,17 +49,24 @@ $mapaColores: (
   }
 
   .cartCount{
-    display: inline;
-    border-radius: 50%;
+    display: inline-block;
     background: $Bebote;
     padding: 2px;
     position: relative;
     bottom: 1.5vw;
-    right: 0.5vw;
+    right: 0.8vw;
+    height:25px;
+    width:25px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
 
     .cartCount__Count{
-      display: inline;
+      display: inline-block;
       color: $whiteBebote;
+      position: relative;
+      bottom: 3px;
+      left: 2px;
     }
   }
 }
