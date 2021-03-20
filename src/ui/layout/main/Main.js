@@ -76,7 +76,7 @@ const Main = () => {
                 </Route>
 
                 {/* LISTAR TODOS LOS PRODUCTOS */}
-                <Route path="/calzados-bebote-react/">
+                <Route path="/E-CommerceCalzadosBebote/">
                     <ItemListContainer producto={productos} categoria={0} greeting={'BIENVENIDO/A A CALZADOS BEBOTE'}/>
                 </Route>
 
