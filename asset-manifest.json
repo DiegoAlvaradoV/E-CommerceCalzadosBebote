@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/E-CommerceCalzadosBebote/static/css/main.fcfaa69a.chunk.css",
-    "main.js": "/E-CommerceCalzadosBebote/static/js/main.6e604cce.chunk.js",
-    "main.js.map": "/E-CommerceCalzadosBebote/static/js/main.6e604cce.chunk.js.map",
+    "main.js": "/E-CommerceCalzadosBebote/static/js/main.f880ddb0.chunk.js",
+    "main.js.map": "/E-CommerceCalzadosBebote/static/js/main.f880ddb0.chunk.js.map",
     "runtime-main.js": "/E-CommerceCalzadosBebote/static/js/runtime-main.58cc233e.js",
     "runtime-main.js.map": "/E-CommerceCalzadosBebote/static/js/runtime-main.58cc233e.js.map",
     "static/js/2.47a270df.chunk.js": "/E-CommerceCalzadosBebote/static/js/2.47a270df.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.58cc233e.js",
     "static/js/2.47a270df.chunk.js",
     "static/css/main.fcfaa69a.chunk.css",
-    "static/js/main.6e604cce.chunk.js"
+    "static/js/main.f880ddb0.chunk.js"
   ]
 }
