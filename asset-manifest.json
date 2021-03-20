@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/E-CommerceCalzadosBebote%E2%80%8B/static/css/main.fcfaa69a.chunk.css",
-    "main.js": "/E-CommerceCalzadosBebote%E2%80%8B/static/js/main.f9121213.chunk.js",
-    "main.js.map": "/E-CommerceCalzadosBebote%E2%80%8B/static/js/main.f9121213.chunk.js.map",
-    "runtime-main.js": "/E-CommerceCalzadosBebote%E2%80%8B/static/js/runtime-main.ab25dc7b.js",
-    "runtime-main.js.map": "/E-CommerceCalzadosBebote%E2%80%8B/static/js/runtime-main.ab25dc7b.js.map",
-    "static/js/2.c824bd14.chunk.js": "/E-CommerceCalzadosBebote%E2%80%8B/static/js/2.c824bd14.chunk.js",
-    "static/js/2.c824bd14.chunk.js.map": "/E-CommerceCalzadosBebote%E2%80%8B/static/js/2.c824bd14.chunk.js.map",
-    "static/js/3.052d86de.chunk.js": "/E-CommerceCalzadosBebote%E2%80%8B/static/js/3.052d86de.chunk.js",
-    "static/js/3.052d86de.chunk.js.map": "/E-CommerceCalzadosBebote%E2%80%8B/static/js/3.052d86de.chunk.js.map",
-    "index.html": "/E-CommerceCalzadosBebote%E2%80%8B/index.html",
-    "static/css/main.fcfaa69a.chunk.css.map": "/E-CommerceCalzadosBebote%E2%80%8B/static/css/main.fcfaa69a.chunk.css.map",
-    "static/js/2.c824bd14.chunk.js.LICENSE.txt": "/E-CommerceCalzadosBebote%E2%80%8B/static/js/2.c824bd14.chunk.js.LICENSE.txt",
-    "static/media/Ayuda.b48e7f85.png": "/E-CommerceCalzadosBebote%E2%80%8B/static/media/Ayuda.b48e7f85.png",
-    "static/media/Pregunta.cfc4c614.png": "/E-CommerceCalzadosBebote%E2%80%8B/static/media/Pregunta.cfc4c614.png",
-    "static/media/Ubicacion.cc757538.png": "/E-CommerceCalzadosBebote%E2%80%8B/static/media/Ubicacion.cc757538.png",
-    "static/media/logotipoBebote.9382a49d.png": "/E-CommerceCalzadosBebote%E2%80%8B/static/media/logotipoBebote.9382a49d.png"
+    "main.css": "/E-CommerceCalzadosBebote/static/css/main.fcfaa69a.chunk.css",
+    "main.js": "/E-CommerceCalzadosBebote/static/js/main.f9121213.chunk.js",
+    "main.js.map": "/E-CommerceCalzadosBebote/static/js/main.f9121213.chunk.js.map",
+    "runtime-main.js": "/E-CommerceCalzadosBebote/static/js/runtime-main.58cc233e.js",
+    "runtime-main.js.map": "/E-CommerceCalzadosBebote/static/js/runtime-main.58cc233e.js.map",
+    "static/js/2.47a270df.chunk.js": "/E-CommerceCalzadosBebote/static/js/2.47a270df.chunk.js",
+    "static/js/2.47a270df.chunk.js.map": "/E-CommerceCalzadosBebote/static/js/2.47a270df.chunk.js.map",
+    "static/js/3.052d86de.chunk.js": "/E-CommerceCalzadosBebote/static/js/3.052d86de.chunk.js",
+    "static/js/3.052d86de.chunk.js.map": "/E-CommerceCalzadosBebote/static/js/3.052d86de.chunk.js.map",
+    "index.html": "/E-CommerceCalzadosBebote/index.html",
+    "static/css/main.fcfaa69a.chunk.css.map": "/E-CommerceCalzadosBebote/static/css/main.fcfaa69a.chunk.css.map",
+    "static/js/2.47a270df.chunk.js.LICENSE.txt": "/E-CommerceCalzadosBebote/static/js/2.47a270df.chunk.js.LICENSE.txt",
+    "static/media/Ayuda.b48e7f85.png": "/E-CommerceCalzadosBebote/static/media/Ayuda.b48e7f85.png",
+    "static/media/Pregunta.cfc4c614.png": "/E-CommerceCalzadosBebote/static/media/Pregunta.cfc4c614.png",
+    "static/media/Ubicacion.cc757538.png": "/E-CommerceCalzadosBebote/static/media/Ubicacion.cc757538.png",
+    "static/media/logotipoBebote.9382a49d.png": "/E-CommerceCalzadosBebote/static/media/logotipoBebote.9382a49d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab25dc7b.js",
-    "static/js/2.c824bd14.chunk.js",
+    "static/js/runtime-main.58cc233e.js",
+    "static/js/2.47a270df.chunk.js",
     "static/css/main.fcfaa69a.chunk.css",
     "static/js/main.f9121213.chunk.js"
   ]
